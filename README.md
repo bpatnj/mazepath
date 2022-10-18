@@ -36,7 +36,7 @@ In order to allow the Astar algorithm to function, there must be a maze map to b
         - AStarDemo.py
         - pyamaze.py
         - inputfile.txt
-2. Run AStar_GUI.py, the destination within the 4x4 maze can be set by changing input variable "dst".
+2. Run AStar_GUI.py, the destination within the 4x4 maze can be set by changing input variable "dst". Line 127 contains "fwdPath=a.findPath((2,2))", the coordinate (2,2) can be altered to any destination, but must match line 116.
 3. View in terminal the shortest path coordinate system
 4. A display should pop up with a red pointer showing the shortest path
 
