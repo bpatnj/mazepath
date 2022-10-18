@@ -22,20 +22,30 @@ In order to allow the Astar algorithm to function, there must be a maze map to b
 # Steps to be taken to demo AStar
 ## Choosing any start cell and goal cell with NO GUI DISPLAY
 1. Download the following files:
-        - AStar.py
+
+        - A_Star.py
+        
         - example_a_star.py
+        
         - pyamaze.py
+        
         - inputfile.txt
-2. Look for Line 237 in AStar.py, "fwdPath=a.findPath((2,3), (4,4))", the (2,3) is the starting location and the (4,4) is the goal of the search. You can edit these parameters as desired. If you are using example_a_star.py you can find the call to findPath function on line 27.  Keep in mind this only works for coordinates within the 4x4 grid. 
+        
+2. Look for Line 237 in A_Star.py, "fwdPath=a.findPath((2,3), (4,4))", the (2,3) is the starting location and the (4,4) is the goal of the search. You can edit these parameters as desired. If you are using example_a_star.py you can find the call to findPath function on line 27.  Keep in mind this only works for coordinates within the 4x4 grid. 
 3. Run Astar.py or example_a_star.py
 4. View in terminal the shortest path coordinate system. Pay attention to the output terminal comments to understand the syntax of the dictionary output. 
 
 ## Choosing any goal cell but starting at only (4,4) with GUI DISPLAY
 1. Download the following files:
+
         - AStar_GUI.py
+        
         - AStarDemo.py
+        
         - pyamaze.py
+        
         - inputfile.txt
+        
 2. Run AStar_GUI.py, the destination within the 4x4 maze can be set by changing input variable "dst". Line 127 contains "fwdPath=a.findPath((2,2))", the coordinate (2,2) can be altered to any destination, but must match line 116.
 3. View in terminal the shortest path coordinate system
 4. A display should pop up with a red pointer showing the shortest path
