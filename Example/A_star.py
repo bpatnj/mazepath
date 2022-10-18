@@ -235,13 +235,18 @@ if __name__=="__main__":
     
     # create a function for findPath
     fwdPath=a.findPath((2,3), (4,4))
+    #f=agent(a.maze,footprints=False)
+    #f.tracePath({a:fwdPath})
+    #l=textLabel(m,'A Star Path Length',len(fwdPath)+1)
+
+    #m.run()
 
     print ()
     print ("SHORTEST PATH TO GOAL FOR INPUT START & FINISH IS BELOW:")
     print ()
-    print ("***Formatting of path is: {(previous cell): (current cell)}**")
-    print ("***Start location is the last key and value of the dictionary, goal is the first**")
-    print ("***Path must be read from right to left**")
+    print ("***Formatting of path is: {(previous cell): (current cell)}***")
+    print ("***Start location is the last key and value of the dictionary, goal is the first***")
+    print ("***Path must be read from right to left***")
     print ()
     print ("PATH: ", fwdPath)
     print ()
